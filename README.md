@@ -6,8 +6,8 @@
 3. `npm run build`
 4. `npm run start`
 # Структура
-- /dist - директория с файлами сборки;
-- /ArtS, /Chat, /Whackamole, /Pilots, /Timer - проекты, которые были созданы за семестр;
-- /node_modules - установленные зависимости проекта;
 - /.cache - кэш;
+- /dist - директория с файлами сборки;
+- /node_modules - установленные зависимости проекта;
+- /ArtS, /Chat, /Whackamole, /Pilots, /Timer - проекты, которые были созданы за семестр;
 - /Picture - изображения.

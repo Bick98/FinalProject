@@ -1,0 +1,40 @@
+body{
+    background: gray;
+}
+
+.grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 180px;
+    width: 180px;
+    border: solid black 5px;
+    background: orange;
+}
+
+.mole {
+    background-image: url("krot.jpg");
+    background-size: cover;
+}
+.menu ul {
+    display: flex;
+    background: lightgray;
+    padding-left: 0;
+}
+.menu a {
+    padding: 1em;
+    display: block;
+    color: black;
+    border-right: 1px solid gray;
+    background: darkgray;
+}
+.menu a:hover {
+    background: gold;
+}
+.menu li {
+    list-style-type: none;
+}

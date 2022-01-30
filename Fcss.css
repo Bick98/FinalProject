@@ -1,0 +1,50 @@
+.dropmenu {
+    background-color: Black;
+    color: white;
+    border: grey;
+    cursor: pointer;
+    padding:20px;
+}
+.dropdown {
+    position: relative;
+    display: inline-flex;
+}
+.dropmenu-child {
+    display: none;
+    background-color: gray;
+    min-width: 100px;
+}
+.dropmenu-child p {
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropmenu-child {
+    display: block;
+}
+.light {
+    color: white;
+}
+body {
+    background-color: gray;
+    color: black;
+}
+.menu li {
+    list-style-type: none;
+}
+.menu ul {
+    display: flex;
+    background: lightgray;
+    padding-left: 0;
+}
+.menu a {
+    padding: 1em;
+    display: block;
+    color: black;
+    border-right: 1px solid gray;
+    background: darkgray;
+}
+.menu a:hover {
+    background: gold;
+}

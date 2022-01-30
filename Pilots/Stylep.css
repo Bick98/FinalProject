@@ -1,0 +1,54 @@
+body{
+    justify-content: center;
+    display: flex;
+    background-color: gray;
+    color: black;
+}
+.tit{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    text-align: center;
+}
+.SQUARE{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+.square{
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    background-color: orange;
+
+}
+
+.StartG{
+    text-align: center;
+}
+.start{
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: orange;
+    color: Black;
+}
+.menu ul {
+    display: flex;
+    background: lightgray;
+    padding-left: 0;
+}
+.menu a {
+    padding: 1em;
+    display: block;
+    color: black;
+    border-right: 1px solid gray;
+    background: darkgray;
+}
+.menu a:hover {
+    background: gold;
+}.menu li {
+     list-style-type: none;
+ }

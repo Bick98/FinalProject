@@ -1,0 +1,50 @@
+body{
+    background-color: gray;
+}
+.content {
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    white-space: pre;
+    font-size: xx-large;
+}
+
+.users {
+    background-color: Black;
+    border-radius: 1px;
+    border: 5px solid grey;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    color: gainsboro;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.mainMessage {
+    display: grid;
+    grid-template-columns: 40px 40px;
+    white-space: pre;
+    font-size: xx-large;
+}
+.menu ul {
+    display: flex;
+    background: lightgray;
+    padding-left: 0;
+}
+.menu a {
+    padding: 1em;
+    display: block;
+    color: black;
+    border-right: 1px solid gray;
+    background: darkgray;
+}
+.menu a:hover {
+    background: gold;
+}
+.menu li {
+    list-style-type: none;
+}
